@@ -5,7 +5,6 @@ import java.util.concurrent.locks.ReentrantLock;
 
 public class CheckingAccount {
     private int balance;
-    Lock lock = new ReentrantLock();
 
     public CheckingAccount(int initialBalance) {
         balance = initialBalance;
